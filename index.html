@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot NEUROCODE</title>
+    <link rel="stylesheet" href="Chatbot.css">
+    <link rel="shortcut icon" href="logo.png">
+
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="logo.png" alt="Logo NEUROCODE" style= "width: 150px; height: auto;">
+            <div>
+                <h1>Asistente de Programación - NEUROCODE</h1>
+                <p>Pregunta sobre programación y recibe ayuda interactiva</p>
+            </div>
+        </div>
+        <div id="chatbox">
+            <div id="messages" class="messages"> </div>
+
+        </div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Escribe tu pregunta sobre programación..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
