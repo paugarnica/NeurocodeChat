@@ -1,4 +1,4 @@
-const apiKey = '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'; // Reemplaza con tu clave
+const apiKey = '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'; // Reemplaza con tu clave
 const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
 const PREMISE = "El chatbot debe ser capaz de responder preguntas sobre conceptos básicos de programación. \
